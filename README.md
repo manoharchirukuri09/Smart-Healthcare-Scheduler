@@ -123,8 +123,6 @@ The **Doctor Appointment System** is a comprehensive, web-based application desi
 - **Database:** MongoDB
 - **Authentication:** JWT (JSON Web Tokens), bcrypt
 - **Styling:** Tailwind CSS
-- **Charts & Graphs:** Recharts, Chart.js
-- **Notifications:** NodeMailer, Twilio
 
 ---
 
