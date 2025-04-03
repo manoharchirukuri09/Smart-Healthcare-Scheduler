@@ -6,11 +6,31 @@ The **Doctor Appointment System** is a modern, web-based application designed to
 
 ## 🌟 Features
 
-- 🔒 **User Authentication**: Secure login and registration for both doctors and patients.
-- 📝 **Profile Management**: View, update, and manage user profiles.
-- 📅 **Appointment Management**: Book, view, update, and cancel appointments with ease.
-- 🛡️ **Admin Panel**: Admin functionalities to manage doctors and patients effectively.
-- 📱 **Responsive UI**: Enhanced user experience across various devices.
+### 🔒 User Authentication
+- Secure login and registration for both doctors and patients.
+- Password hashing for enhanced security.
+- Role-based access control to differentiate between patients, doctors, and admin users.
+
+### 📝 Profile Management
+- Patients and doctors can create and update their profiles.
+- Doctors can specify their specialization, availability, and contact details.
+- Patients can maintain their personal information and medical history.
+
+### 📅 Appointment Management
+- Easy appointment booking with available doctors based on specialization and availability.
+- View, edit, or cancel appointments with instant updates.
+- Notifications for successful booking, cancellation, or rescheduling.
+
+### 🛡️ Admin Panel
+- Admin can manage doctors and patients efficiently.
+- Ability to add, update, or remove doctor profiles.
+- Monitor all appointments in the system.
+- View statistical reports and activity logs for system monitoring.
+
+### 📱 Responsive UI
+- Fully responsive design ensuring seamless usage on desktop, tablet, and mobile devices.
+- Intuitive and user-friendly interface for all user roles.
+- Enhanced user experience with clean and modern styling.
 
 ---
 
