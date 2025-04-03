@@ -2,35 +2,42 @@
 
 ## 📌 Description
 
-The **Doctor Appointment System** is a modern, web-based application designed to streamline the process of booking and managing medical appointments between doctors and patients. The system offers a user-friendly interface for patients and doctors, along with a robust admin panel for overseeing the entire system.
+The **Doctor Appointment System** is a comprehensive, web-based application designed to streamline the process of scheduling, managing, and monitoring medical appointments. It provides role-based access for **patients**, **doctors**, and **admin users**, ensuring a smooth workflow for all parties involved. The application is built with a robust backend using **Node.js and Express**, with data management handled by **MongoDB**. The frontend is developed with **React**, ensuring a dynamic and responsive user experience.
 
 ## 🌟 Features
 
 ### 🔒 User Authentication
 - Secure login and registration for both doctors and patients.
-- Password hashing for enhanced security.
-- Role-based access control to differentiate between patients, doctors, and admin users.
+- Password hashing using bcrypt for enhanced security.
+- Role-based access control with JWT authentication to distinguish between patients, doctors, and admin users.
+- Forgot password functionality for enhanced user convenience.
 
 ### 📝 Profile Management
-- Patients and doctors can create and update their profiles.
-- Doctors can specify their specialization, availability, and contact details.
-- Patients can maintain their personal information and medical history.
+- Patients and doctors can create, view, and update their profiles.
+- Doctors can specify their specialization, availability, contact details, and consultation fees.
+- Patients can maintain personal information, medical history, and past appointments.
+- Profile pictures can be uploaded and updated for better identification.
 
 ### 📅 Appointment Management
-- Easy appointment booking with available doctors based on specialization and availability.
+- Easy appointment booking with available doctors based on specialization, date, and time.
 - View, edit, or cancel appointments with instant updates.
-- Notifications for successful booking, cancellation, or rescheduling.
+- Appointment history tracking for both patients and doctors.
+- Doctors can set their availability schedule to avoid conflicts.
 
 ### 🛡️ Admin Panel
-- Admin can manage doctors and patients efficiently.
+- Comprehensive admin dashboard for monitoring the entire system.
 - Ability to add, update, or remove doctor profiles.
-- Monitor all appointments in the system.
-- View statistical reports and activity logs for system monitoring.
+- View and manage all registered users and their roles.
+- Monitor all appointments in the system with real-time updates.
+- Generate statistical reports and logs for system monitoring and decision-making.
+- Enhanced security with role-based permission handling.
 
 ### 📱 Responsive UI
-- Fully responsive design ensuring seamless usage on desktop, tablet, and mobile devices.
-- Intuitive and user-friendly interface for all user roles.
-- Enhanced user experience with clean and modern styling.
+- Fully responsive design ensuring seamless usage on desktops, tablets, and mobile devices.
+- Intuitive user interface with clean and modern styling.
+- Dark mode support for better accessibility.
+
+
 
 ---
 
@@ -114,6 +121,10 @@ The **Doctor Appointment System** is a modern, web-based application designed to
 - **Frontend:** HTML, CSS, JavaScript, React
 - **Backend:** Node.js, Express
 - **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Tokens), bcrypt
+- **Styling:** Tailwind CSS
+- **Charts & Graphs:** Recharts, Chart.js
+- **Notifications:** NodeMailer, Twilio
 
 ---
 
