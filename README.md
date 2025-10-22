@@ -1,4 +1,4 @@
-# Doctor Appointment System
+#Smart Healthcare Scheduler
 
 ## 📌 Description
 
